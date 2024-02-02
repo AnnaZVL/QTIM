@@ -33,7 +33,7 @@ export const useArticlesStore = defineStore('articles', {
     async getArticles(this: any): Promise<void> {
       try {
         const response = await axios.get<Article[]>('https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts/') 
-        this.articlesList = response.data;               
+        this.articlesList = response.data.reverse();               
      } catch (error) {
         console.log('Ошибка при получении списка статей', error);
      }

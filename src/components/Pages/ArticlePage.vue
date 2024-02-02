@@ -30,7 +30,7 @@ export default {
       <h1 class="article__title">{{ currentArticle?.title }}</h1>
       <img class="article__img" :src="currentArticle?.image" :alt="currentArticle?.title" />
       <div class="article__descr">
-        <span class="article__subtitle">About</span>
+        <span class="article__subtitle" id="about">About</span>
         <p class="article__text">{{ currentArticle?.description }}</p>
       </div>
     </div>

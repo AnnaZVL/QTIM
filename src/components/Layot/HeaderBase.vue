@@ -14,7 +14,7 @@ export default {}
             <a class="menu__link" href="#">Works</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">About</a>
+            <a class="menu__link" href="#about">About</a>
           </li>
         </ul>
       </nav>
